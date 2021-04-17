@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimeZone=GMT%2B8
+      username: root
+      password: Fyz@1992
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      initial-size: 3
+      min-idle: 1
+      max-active: 10
+      max-wait: 5000
+      pool-prepared-statements: false
+      validation-query: select 'x'
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 600000
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml,classpath*:mapper/*Mapper.xml
