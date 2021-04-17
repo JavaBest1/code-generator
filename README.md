@@ -10,3 +10,5 @@
 - 生成 Service 接口和实现类，基础接口抽象
 - 生成 Controller 类，基础接口抽象
 
+## 使用方法
+- 修改 CodeGenerator 中的 main 方法中的表名以及你自己的数据库连接和基础包名然后直接运行main方法即可
