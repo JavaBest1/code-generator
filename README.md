@@ -1,5 +1,5 @@
 ## 简介
-- 使用 FreeMarker 和 Mybatis Generator 实现的代码生成工具，可以通过表名自动生成 Model、Mapper、Service、Controller，
+使用 FreeMarker 和 Mybatis Generator 实现的代码生成工具，可以通过表名自动生成 Model、Mapper、Service、Controller，
 另外还集成了通用Mapper（tk.mybatis），除了一些特殊的业务逻辑之外不需要写任何 SQL，只需要写好实体类及 Mapper 文件中对应的字段
 即可支持相应的增删改查方法，大大提高了开发效率。
 
